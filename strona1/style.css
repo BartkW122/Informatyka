@@ -1,0 +1,27 @@
+body{
+    height: 1000px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .rejestr{
+    border: 2px solid black;
+}
+.container .logowanie{
+    border: 2px solid black;
+}
+.container .logowanie input{
+    width: 250px;
+}
+.container .rejestr input{
+    width: 250px;
+}

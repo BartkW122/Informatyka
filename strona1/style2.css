@@ -1,0 +1,36 @@
+header {
+    font-size: 3em;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+header .links a {
+    display: block; 
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+header .links a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+header a.icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+header .links {
+    display: none; 
+}
+
+
+
