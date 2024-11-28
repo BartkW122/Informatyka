@@ -1,7 +1,11 @@
+body{
+    min-width: none;
+}
 header {
     font-size: 3em;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 750px;
     border: 2px solid black;
     padding: 20px;
     overflow: hidden;
@@ -16,7 +20,7 @@ header .links a {
 }
 
 header .links a:hover {
-    background-color: aliceblue;
+    background-color: rgb(194, 197, 201);
     color: black;
 }
 
@@ -29,8 +33,12 @@ header a.icon {
 }
 
 header .links {
+    margin-top: 20px;
     display: none; 
 }
 
+header .links .p_s{
+    box-shadow: 5px 4px 3px black;
+}
 
 
