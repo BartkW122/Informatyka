@@ -1,7 +1,10 @@
+
 var btn_zal = document.querySelector(".zal");
 var btn_zar = document.querySelector(".zar");
+
 var btn_log = document.querySelector(".log");
 var btn_rej = document.querySelector(".rej");
+
 var form_rej = document.querySelector(".rejestr");
 var form_log = document.querySelector(".logowanie");
 

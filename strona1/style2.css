@@ -1,5 +1,6 @@
 header {
     font-size: 3em;
+    min-width: 700px;
     margin-left: 200px;
     margin-right: 200px;
     border: 2px solid black;
@@ -31,6 +32,41 @@ header a.icon {
 header .links {
     display: none; 
 }
+.content{
+    border: 2px solid black;
+    height: 2000px;
+}
+.content .opis_strony{
+    position: sticky;
+    top: 0;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    font-size: 2em;
+}
+.content .pasek_poboczny{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 2px solid black;
+    height: 2000px;
+    width: 170px;
+}
+
+header .settings-button:hover {
+    display: inline-block;
+    animation: obrot 2s ease; 
+}
+
+@keyframes obrot {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
 
 
 
