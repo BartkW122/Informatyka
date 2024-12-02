@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 form_rej.addEventListener("submit", (e) => {
     e.preventDefault(); 
-    window.location.href = "strona_gol.html";
+    window.location.href = "strona_g.html";
 });
 
 
 form_log.addEventListener("submit", (e) => {
     e.preventDefault(); 
-    window.location.href = "strona_gol.html";
+    window.location.href = "strona_g.html";
 });
 
 
