@@ -80,5 +80,13 @@ header .settings-button:hover {
 header .links .p_s{
     box-shadow: 5px 4px 3px black;
 }
+footer{
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 10px;
+    color: white;
+}
 
-
+.img{
+    width: 200px;
+    height: 200px;
+}
