@@ -1,3 +1,4 @@
+// przechodzenie z strony logowania  na strone główną
 
 var btn_zal = document.querySelector(".zal");
 var btn_zar = document.querySelector(".zar");
@@ -7,6 +8,9 @@ var btn_rej = document.querySelector(".rej");
 
 var form_rej = document.querySelector(".rejestr");
 var form_log = document.querySelector(".logowanie");
+
+form_log.value="";
+form_rej.value="";
 
 document.addEventListener("DOMContentLoaded", () => {
    
@@ -39,13 +43,6 @@ btn_rej.addEventListener("click", () => {
     form_log.style.display = "none"; 
 });
 
-//
 
-function myFunction() {
-    var links = document.querySelector("header .links");
-    if (links.style.display === "block") {
-        links.style.display = "none";
-    } else {
-        links.style.display = "block";
-    }
-}
+
+
