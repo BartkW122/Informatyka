@@ -1,5 +1,5 @@
 body{
-    min-width: none;
+    min-width: 700px;
 }
 header {
     font-size: 3em;
@@ -42,6 +42,29 @@ header .links {
     display: none; 
 }
 .content{
+    border: 2px solid black;
+    height: 2000px;
+}
+.content2{
+    border: 2px solid black;
+    height: 2000px;
+}
+.content3{
+    border: 2px solid black;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content4{
+    border: 2px solid black;
+    height: 2000px;
+}
+.content5{
+    border: 2px solid black;
+    height: 2000px;
+}
+.content6{
     border: 2px solid black;
     height: 2000px;
 }
@@ -110,7 +133,29 @@ footer{
     visibility: hidden;
 }
 
-
+table{
+    font-size: 2em;
+    text-align: center;
+    width: 90%;
+    height: 50%;
+    box-shadow: 10px 10px 6px aqua;
+}
+th{
+    background-color: aquamarine;
+}
+td{
+    background-color: aliceblue;
+}
+td:hover{
+    background-color: rgb(174, 177, 180);
+}
+td,th{
+    border: 2px solid black;
+    box-shadow: 10px 10px 6px aqua;
+}
+.content4 h1{
+    text-align: center;
+}
 
 
 
