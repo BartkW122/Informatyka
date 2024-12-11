@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="style2.css">
+    <script src="fun2.js" defer></script>
+</head>
+<body>
+   <!--naglowek-->
+    <header>
+        <a href="rej_log.html" class="active"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+
+        <a href="index.html" class="active">🏠</a>
+        <!-- <a href="#settings" class="settings-button"><i class="fa fa-cog" aria-hidden="true"></i></a> -->
+        <div class="links">
+            <a href="galeria.html">galeria</a>
+            <a href="harmonogram.html">Harmonogram</a>
+            <a href="strona_z_tekstem.html">Strona z tekstem</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="ankieta.html">Ankieta</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </header>
+    <!---->
+    
+    <!--Cialo strony-->
+        <div class="content6">
+            <div class="con_ankieta">
+                <form>
+                    <label for="name">Nazwa Użytkownika:</label>
+                    <br>
+                    <input type="text" name="name" class="name">
+                    <br>
+                    <label>Jak ci się pododba strona:</label>
+                    <br>
+                    <label for="rad">tak sobie:</label>
+                    <input type="radio" name="rad" class="rad" id="1" value="sl">
+                    <br>
+                    <label for="rad">okej:</label>
+                    <input type="radio" name="rad" class="rad" id="2" value="ok">
+                    <br>
+                    <label for="rad">Bardzo fajna:</label>
+                    <input type="radio" name="rad" class="rad" id="3" value="bd">
+                    <br>
+                    <label for="pop">Ewentualne poprawki:</label>
+                    <br>
+                    <input type="text" name="pop" class="pop">
+                    <br>
+                    <label for="pyt">Pytanie:</label>
+                    <br>
+                    <input type="text" name="pyt" class="pyt">
+                    <br>
+                    <button type="button" class="btn_sub">Wyślij</button>
+                </form>
+                <button type="button" class="pokaz_ank">pokaz anikety</button>
+            </div>
+            <div class="wybor_ankiety">
+                <form>
+                    <label for="anikety">Którego uzytkownika chcesz zobaczyc ankiete?</label>
+                    <select name="ankieta">
+                        <!--Wypełniane w js-->
+                    </select>
+                    <button type="button" class="pokaz">Pokaz</button>
+                    <button type="button" class="zamknij">zamknij</button>
+
+                    <h1 class="u_name">Nazwa uzytkownika:</h1>
+                    <span class="u_name_value" style="font-size: 1.3em;"></span>
+
+                    <h1 class="u_rate">Ocena Strony:</h1>
+                    <span class="u_rate_value" style="font-size: 1.3em;"></span>
+
+                    <h1 class="u_poprawki">Poprawki:</h1>
+                    <span class="u_poprawki_value" style="font-size: 1.3em;"></span>
+                    
+                    <h1 class="u_query">Pytanie:</h1>
+                    <span class="u_query_value" style="font-size: 1.3em;"></span>
+                </form>                  
+            </div>
+        </div>
+    <!---->
+
+    <!--stopka--->
+        <footer>
+            <p>Odnosniki do social mediów:</p>
+            <a href="https://www.instagram.com/" style="font-size: 3em;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://pl-pl.facebook.com/"  style="font-size: 3em;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://x.com/login?mx=2"  style="font-size: 3em;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <p>Jeśli masz jakieś pytania o to jest kontakt:</p>
+            <p>gamil: pomoc@gmail.com</p>
+            <p>numer telefonu: 123 456 789</p>
+        </footer>
+    <!---->
+</body>
+</html>

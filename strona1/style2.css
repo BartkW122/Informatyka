@@ -74,6 +74,9 @@ header .links {
 .content6{
     border: 2px solid black;
     height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content .opis_strony{
     position: sticky;
@@ -197,4 +200,47 @@ td,th{
 .content5 .pytanie:hover{
     margin: 20px;
     box-shadow: 10px 10px 10px black;
+}
+
+.content6 .con_ankieta{
+    background-color: white;
+    box-shadow: 10px 10px 10px aqua;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.content6 .con_ankieta input{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+.content6 .con_ankieta button{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+}
+.content6 .con_ankieta input:hover{
+    box-shadow: 10px 10px 10px aqua;
+}
+.content6 .con_ankieta button:hover{
+    font-size: 1.1em;
+    box-shadow: 10px 10px 10px aqua;
+}
+.content6 .wybor_ankiety{
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    height: 600px;
 }
