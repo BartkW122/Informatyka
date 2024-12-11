@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 form_rej.addEventListener("submit", (e) => {
     e.preventDefault(); 
-    window.location.href = "strona_g.html";
+    window.location.href = "index.html";
 });
 
 
 form_log.addEventListener("submit", (e) => {
     e.preventDefault(); 
-    window.location.href = "strona_g.html";
+    window.location.href = "index.html";
 });
 
 

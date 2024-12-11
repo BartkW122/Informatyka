@@ -25,6 +25,7 @@ header .links a {
 }
 
 header .links a:hover {
+    box-shadow: 10px 10px 10px black;
     background-color: rgb(194, 197, 201);
     color: black;
 }
@@ -63,6 +64,9 @@ header .links {
 .content5{
     border: 2px solid black;
     height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content6{
     border: 2px solid black;
@@ -117,7 +121,7 @@ footer{
 .zdjecia{
     margin-top: 20%;
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); 
     gap: 10px; 
     padding: 20px;
 }
@@ -147,6 +151,7 @@ td{
     background-color: aliceblue;
 }
 td:hover{
+    box-shadow: 10px 10px 10px black;
     background-color: rgb(174, 177, 180);
 }
 td,th{
@@ -157,5 +162,20 @@ td,th{
     text-align: center;
 }
 
-
-
+.zdj_t{
+    width: 300px;
+    height: 250px;
+}
+.content5 .pytania{
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content5 .pytanie1{
+    border:2px solid black;
+    width: 90%;
+}
