@@ -42,3 +42,33 @@ for(let i = 0;i<zdjecia.length;i++){
         })
     })
 }
+
+//pytania
+
+// Select elements
+var pytanie = document.querySelectorAll(".pytanie");
+
+for (let i = 0; i < pytanie.length; i++) {
+    
+    pytanie[i].addEventListener("mouseover", () => {
+        console.log(i);
+
+        
+        let node = pytanie[i].childNodes[2];
+
+        if (node && node.style.visibility !== "visible") {
+            node.style.visibility = "visible";
+        }
+    });
+
+    pytanie[i].addEventListener("mouseout", () => {
+        console.log(i);
+
+       
+        let node = pytanie[i].childNodes[2];
+
+        if (node && node.style.visibility !== "hidden") {
+            node.style.visibility = "hidden";
+        }
+    });
+}

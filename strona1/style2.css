@@ -89,19 +89,19 @@ header .links {
     width: 170px;
 }
 
-header .settings-button:hover {
+/*header .settings-button:hover {
     display: inline-block;
     animation: obrot 2s ease; 
-}
+}*/
 
-@keyframes obrot {
+/*@keyframes obrot {
     from {
         transform: rotate(0deg); 
     }
     to {
         transform: rotate(360deg); 
     }
-}
+}*/
 
 
 header .links .p_s{
@@ -133,7 +133,13 @@ footer{
     border-radius: 5px; 
     object-fit: cover;
 }
+.zdjecia img:hover{
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 10px;
+}
 .zdjecia span{
+    font-size: 1.3em;
     visibility: hidden;
 }
 
@@ -167,15 +173,25 @@ td,th{
     height: 250px;
 }
 .content5 .pytania{
-    border: 2px solid black;
-    width: 800px;
-    height: 800px;
+    /*border: 2px solid black;*/
+    width: 1200px;
+    height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.content5 .pytanie1{
+.content5 .pytanie{
+    margin: 10px;
     border:2px solid black;
     width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content5 .pytanie .p{
+    visibility: hidden;
+}
+.content5 .pytanie:hover{
+    margin: 20px;
+    box-shadow: 10px 10px 10px black;
 }

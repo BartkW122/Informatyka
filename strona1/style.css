@@ -1,27 +1,58 @@
 body{
-    height: 1000px;
+    height: 2000px;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(blue,rgb(126, 201, 227));
 }
 .container{
-    width: 300px;
-    border: 2px solid black;
+    width: 450px;
+    height: 650px;
+    box-shadow: 10px 10px 10px lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgb(218, 244, 236);
+    border-radius: 10%;
 }
-.container .rejestr{
-    border: 2px solid black;
+/*.container .rejestr{
+    
 }
 .container .logowanie{
-    border: 2px solid black;
-}
+    
+}*/
 .container .logowanie input{
-    width: 250px;
+    margin:  10px;
+    box-shadow: 6px 6px 10px black;
+    background-color: transparent;
+    border-radius: 200px;
+    width: 360px;
+    height: 45px;
+    font-size: 1.3em;
 }
 .container .rejestr input{
-    width: 250px;
+    margin:  10px;
+    box-shadow: 6px 6px 10px black;
+    background-color: transparent;
+    border-radius: 200px;
+    width: 360px;
+    height: 45px;
+    font-size: 1.3em;
+}
+.container button{
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    background:linear-gradient(rgb(233, 216, 142),rgb(121, 232, 214));
+}
+.container button:hover{
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.container input:hover{
+    width: 100%;
+    margin: 20px;
+    box-shadow: 10px 10px 10px black;
 }
